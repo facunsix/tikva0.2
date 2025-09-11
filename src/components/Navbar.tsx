@@ -76,14 +76,7 @@ export const Navbar: React.FC<NavbarProps> = ({
                 />
                 <Moon className="h-4 w-4" />
               </div>
-              <Button 
-                variant="ghost" 
-                size="icon" 
-                onClick={() => onThemeToggle(!isDarkMode)}
-                className="md:hidden h-8 w-8"
-              >
-                {isDarkMode ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
-              </Button>
+
             </div>
 
             {/* Redes sociales */}
